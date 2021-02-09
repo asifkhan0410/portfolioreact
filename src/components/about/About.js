@@ -18,10 +18,12 @@ function About() {
             </div>
             <div className="about__right">
                 <img className="about__rightbioimage" src={dp} alt="alt"/>
-                <Social imageurl={github} socialurl="https://github.com/asifkhan0410" alttext="Github"/>
-                <Social imageurl={linkedin} socialurl="https://www.linkedin.com/in/aakhan0410/" alttext="Linkedin"/>
-                <Social imageurl={hashnode} socialurl="https://twitter.com/khanasif41" alttext="hashnode"/>
-                <Social imageurl={twitter} socialurl="https://asifkhan.hashnode.dev/" alttext="Twitter"/>
+                <div className="about__rightsocials">
+                    <Social imageurl={github} socialurl="https://github.com/asifkhan0410" alttext="Github"/>
+                    <Social imageurl={linkedin} socialurl="https://www.linkedin.com/in/aakhan0410/" alttext="Linkedin"/>
+                    <Social imageurl={hashnode} socialurl="https://twitter.com/khanasif41" alttext="hashnode"/>
+                    <Social imageurl={twitter} socialurl="https://asifkhan.hashnode.dev/" alttext="Twitter"/>
+                </div>
             </div>
         </div>
     )

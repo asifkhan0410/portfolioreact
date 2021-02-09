@@ -1,9 +1,10 @@
 import React from 'react'
+import "./Social.css"
 
 function Social({imageurl,socialurl,alttext}) {
     return (
         <div className="social">
-            <img className="social" href={socialurl} src={imageurl} alt={alttext}/>
+            <a href={socialurl} target="_blank"><img className="socialimg" src={imageurl} alt={alttext}/></a>
         </div>
     )
 }

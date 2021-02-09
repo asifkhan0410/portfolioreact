@@ -8,7 +8,7 @@
 }
 .header > img{
     width:20%;
-    animation-name: signatureroll;
+    /* animation-name: signatureroll; */
     animation-timing-function: ease-in-out;
     animation-duration: 4s;
 }
@@ -18,7 +18,7 @@
     100%{transform: rotateY(360deg);}
 }
 .signature:hover{
-    animation-name: signaturerollhover;
+    /* animation-name: signaturerollhover; */
     animation-timing-function: ease-in-out;
     animation-duration: 4s;
 }
