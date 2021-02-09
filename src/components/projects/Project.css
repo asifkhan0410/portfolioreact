@@ -1,0 +1,37 @@
+.projects{
+    margin: 6% 10%;
+}
+.projects > h1{
+    margin-left:0.7%;
+}
+.projects__grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.singleproject{
+    display: flex;
+    width: 30%;
+    border: 1px solid red;
+    padding: 11px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.singleproject__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.singleproject__headeritems{
+    display: flex;
+    flex: 0.3;
+    justify-content: space-around;
+}
+.singleproject__languagesused{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.singleproject__languagesused.social > img{
+    width:30px;
+}
