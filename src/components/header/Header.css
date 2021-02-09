@@ -4,10 +4,29 @@
     background-color: #0b0c10;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 8px 15px;
 }
 .header > img{
-    width:25%;
+    width:20%;
+    animation-name: signatureroll;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+}
+@keyframes signatureroll{
+    0%{transform: rotateY(0deg);}
+    50%{transform:translateX(400px) rotateY(180deg) ;}
+    100%{transform: rotateY(360deg);}
+}
+.signature:hover{
+    animation-name: signaturerollhover;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+}
+
+@keyframes signaturerollhover{
+    0%{transform: rotateY(0deg);}
+    50%{transform: rotateX(360deg) rotateY(180deg);}
+    100%{transform: rotateY(360deg);}
 }
 .header__option{
     display: flex;

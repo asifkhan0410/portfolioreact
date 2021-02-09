@@ -6,7 +6,7 @@ import signature from "../../images/signature.png"
 function Header() {
     return (
         <div className="header">
-            <img src= {signature} alt="Asif-Ali-Khan"/>
+            <img class="signature" src= {signature} alt="Asif-Ali-Khan"/>
             <div className="header__option">
                 <HeaderElement number="1" name="Home"/>
                 <HeaderElement number="2" name="Projects"/>
