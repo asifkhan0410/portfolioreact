@@ -42,10 +42,10 @@
 }
 .singleproject{
     display: flex;
-    width: 28%;
+    width: 26.8%;
     border: 2px solid #66fcf14d;
-    padding: 40px 21px;
-    margin:5px;
+    padding: 3% 2%;
+    margin: 1%;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
     border-radius: 10px;
     flex-direction: column;
@@ -78,4 +78,31 @@
 }
 .singleproject__languagesused.social > img{
     width:30px;
+}
+@media only screen and (max-width: 375px){
+    .projects{
+        height:auto;
+    }
+    .projects>h1{
+        font-size: 2rem;
+    }
+    .projects__header{
+        font-size: 1.4rem;
+    }
+    .projects__grid{
+        flex-direction: column;
+        align-content: space-around;
+    }
+    .singleproject{
+        width:100%;
+        margin:4% 1%;
+        padding: 4% 4%;
+    }
+    .singleproject__body>h2{
+        font-size: 1.5rem;
+        margin: 11px 0px;
+    }
+    .singleproject__body>p{
+        font-size: 0.9rem;
+    }
 }

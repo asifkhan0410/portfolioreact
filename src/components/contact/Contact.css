@@ -1,0 +1,66 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    height: 60vh;
+    padding: 2% 29%;
+    background-color: #0b0c10;
+    transition: all ease-in 0.3s;
+    color: #c5c6c7;
+}
+.contact__header{
+    color: #66fcf1;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding-right: 1rem;
+}
+.contact > h1{
+    font-size: 3rem;
+    margin: 10px;
+    transition: all cubic-bezier(0, 0.51, 1, 0.82) 0.2s;
+}
+.contact>h1:hover{
+    color: #66fcf1;
+}
+.contact>h1::after{
+    content: "";
+    display: block;
+    width: 0px;
+    height: 3px;
+    position: relative;
+    top: 0.2em;    
+    background-color: #66fcf1;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    opacity: 0.7;
+}
+.contact>h1:hover::after{
+    width:100%;
+}
+.contact>p{
+    font-size: 20px;
+}
+.contact__contactme{
+    margin-top: 20px;
+    color: #faf8f9;
+    background-color: #1f2833;
+    padding: 10px 25px;
+    letter-spacing: 5px;
+    outline: none;
+    transition: all cubic-bezier(0, 0.71, 1, 0.78) 0.2s;
+    font-weight: 800;
+    border: 2px solid #66fcf1;
+    border-radius: 17px;
+}
+.contact__contactme:hover{
+    background-color: #66fcf16b;
+    transform: scale(1.1);
+}
+.contact__social{
+    display: flex;
+    align-self: stretch;
+    justify-content: center;
+    margin-top: 10%;
+}

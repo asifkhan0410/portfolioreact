@@ -61,3 +61,28 @@
     align-self: normal;
     align-items: center;
 }
+@media only screen and (max-width: 375px){
+    .about{
+        flex-direction: column;
+        height: auto;
+        padding: 50px 5%;
+    }
+    .about__leftintro{
+        font-size: 1rem;
+    }
+    .about__leftname{
+        font-size: 3.3rem;
+    }
+    .about__leftbio{
+        font-size: 1rem;
+    }
+    .about__leftcontactme{
+        margin-top: 10px;
+        padding: 10px 10px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .about__rightbioimage{
+        width:55%;
+    }
+}
