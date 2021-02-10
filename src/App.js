@@ -9,12 +9,12 @@ import Projects from './components/projects/Projects'
 function App() {
     return (
         <div>
-           {/* <Header/>  */}
-           {/* <About/> */}
+           <Header/> 
+            <About/>
             <Projects/>
-           {/*<Blog/>
-           <Contact/>
-           <Footer/> */}
+            <Blog/>
+            <Contact/>
+            <Footer/>
         </div>
     )
 }

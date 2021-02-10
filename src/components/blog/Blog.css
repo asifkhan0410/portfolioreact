@@ -109,3 +109,43 @@
 .blog__righttech>img{
     width:4%;
 }
+@media only screen and (max-width:375px){
+    .blog__left > h1{
+        font-size: 2rem;
+    }
+    .blog__header{
+        font-size: 1.4rem;
+    }
+    .blog__container{
+        width:100% ;
+        align-self: center;
+        margin:25px 0px;
+    }
+    .singleblog__card{
+        flex-direction: column;
+    }
+    .singleblog__card>img{
+        width: 100%;
+    }
+    .singleblog__cardinfo{
+        padding: 0px;
+    }
+    .singleblog__cardinfo > h2{
+        font-size: 1rem;
+    }
+    .singleblog__cardinfo>p{
+        margin: 0;
+        font-size: 0.8rem;
+    }
+    .blog__right >h1{
+        font-size: 1.4rem;
+    }
+    .blog__righttech{
+        flex-wrap: wrap;
+        margin: 10px 0px;
+    }
+    .blog__righttech > img{
+        padding: 5px;
+        width:16%;
+    }
+}

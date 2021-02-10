@@ -8,7 +8,7 @@ import hashnode from "../../images/hashnode.svg"
 
 function Contact() {
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <span className="contact__header">04. What's Next?</span>
             <h1>Let's Connect</h1>
             <p>Feel free to reach out if you're looking for a developer, or want to discuss on something.</p>

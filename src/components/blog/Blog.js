@@ -13,7 +13,7 @@ import bootstrap from "../../images/bootstrap.svg"
 function Blog() {
     
     return (
-        <div className="blog">
+        <div className="blog" id="blog">
             <div className="blog__left">
                 <h1><span className="blog__header">03.</span>My Blog</h1> 
                 <div className="blog__container">

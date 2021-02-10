@@ -4,7 +4,7 @@ import "./Project.css"
 
 function Projects() {
     return (
-        <div className="projects">
+        <div className="projects" id="projects">
             <h1><span className="projects__header">02.</span>My Projects</h1>
             <div className="projects__grid">
                 <SingleProject githublink="https://github.com/asifkhan0410/weatherapp" gotolink="https://khanweatherapp.netlify.app/" title="Weathery" bio="A weather application built to detect the current weather of a city with the help of an API. It also forecast next 4 days weather using the same api." languages={["api","react","Javascript","HTML","CSS"]}/>

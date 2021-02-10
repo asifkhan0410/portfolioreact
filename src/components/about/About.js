@@ -9,7 +9,7 @@ import './About.css'
 
 function About() {
     return (
-        <div className="about">
+        <div className="about" id="about">
             {window.screen.width>375?(<div className="about__left">
                 <h4 className="about__leftintro">Hey! Introducing myself, I'm</h4>
                 <h2 className="about__leftname">Asif Ali Khan</h2>
