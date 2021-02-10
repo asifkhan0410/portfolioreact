@@ -20,9 +20,9 @@ function About() {
                 <img className="about__rightbioimage" src={dp} alt="alt"/>
                 <div className="about__rightsocials">
                     <Social imageurl={github} socialurl="https://github.com/asifkhan0410" alttext="Github"/>
-                    <Social imageurl={linkedin} socialurl="https://www.linkedin.com/in/aakhan0410/" alttext="Linkedin"/>
-                    <Social imageurl={hashnode} socialurl="https://twitter.com/khanasif41" alttext="hashnode"/>
-                    <Social imageurl={twitter} socialurl="https://asifkhan.hashnode.dev/" alttext="Twitter"/>
+                    <Social imageurl={linkedin} socialurl="https://www.linkedin.com/in/aakhan0410" alttext="Linkedin"/>
+                    <Social imageurl={hashnode} socialurl="https://asifkhan.hashnode.dev" alttext="hashnode"/>
+                    <Social imageurl={twitter} socialurl="https://twitter.com/khanasif41" alttext="Twitter"/>
                 </div>
             </div>
         </div>

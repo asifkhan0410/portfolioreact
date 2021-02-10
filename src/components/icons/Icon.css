@@ -1,0 +1,13 @@
+.icon{
+    display: flex;
+    justify-content: center;
+    flex:0.12;
+}
+.icon:hover{
+    transform: rotate(360deg);
+}
+.iconimg{
+    width:25px;
+    padding: 5px;
+    border-radius: 10px;
+}
