@@ -6,6 +6,8 @@ import linkedin from "../../images/linkedin-fill.svg"
 import hashnode from "../../images/hashnode.svg"
 import axe from "../../images/axe.svg"
 import dp from "../../images/profiledp.jpg"
+import dpmobile from "../../images/profiledpmobile.jpg"
+import dpdesktop from "../../images/profiledpdesktop.jpg"
 import './About.css'
 
 function About() {
@@ -25,7 +27,7 @@ function About() {
                 <Mailto email="asifkhan0410@gmail.com" subject="Hey Asif!" body="Hey I just came across your profile and wanted to contact you. Regards !"><button className="about__leftcontactme">Get In Touch</button></Mailto>
             </div>):
             (<div className="about__right">
-                <img className="about__rightbioimage" src={dp} alt="alt"/>
+                <img className="about__rightbioimage" src={dpmobile} alt="alt"/>
                 <div className="about__rightsocials">
                     <Social imageurl={github} socialurl="https://github.com/asifkhan0410" alttext="Github"/>
                     <Social imageurl={linkedin} socialurl="https://www.linkedin.com/in/aakhan0410" alttext="Linkedin"/>
@@ -40,7 +42,7 @@ function About() {
                 <Mailto email="asifkhan0410@gmail.com" subject="Hey Asif!" body="Hey I just came across your profile and wanted to contact you. Regards !"><button className="about__leftcontactme">Get In Touch</button></Mailto>
             </div>):
             (<div className="about__right">
-                <img className="about__rightbioimage" src={dp} alt="alt"/>
+                <img className="about__rightbioimage" src={dpdesktop} alt="alt"/>
                 <div className="about__rightsocials">
                     <Social imageurl={github} socialurl="https://github.com/asifkhan0410" alttext="Github"/>
                     <Social imageurl={linkedin} socialurl="https://www.linkedin.com/in/aakhan0410" alttext="Linkedin"/>
