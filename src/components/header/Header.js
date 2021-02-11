@@ -13,7 +13,7 @@ function Header() {
     return (
         <div className="header">
             <img className="signature" src= {signature} alt="Asif-Ali-Khan"/>
-            {window.screen.width>375? (<div className="header__option">
+            {window.screen.width>415? (<div className="header__option">
                 <a href="#"><HeaderElement number="1" name="Home"/></a>
                 <a href="#"><HeaderElement number="2" name="Projects"/></a>
                 <a href="#"><HeaderElement number="3" name="Blog"/></a>

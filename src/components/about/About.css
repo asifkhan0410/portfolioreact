@@ -61,7 +61,7 @@
     align-self: normal;
     align-items: center;
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 415px){
     .about{
         flex-direction: column;
         height: auto;

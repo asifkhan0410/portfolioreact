@@ -11,7 +11,7 @@
     padding: 5px;
     border-radius: 10px;
 }
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 415px){
     .iconimg{
         width:16px;
     }

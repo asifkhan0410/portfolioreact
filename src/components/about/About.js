@@ -10,7 +10,7 @@ import './About.css'
 function About() {
     return (
         <div className="about" id="about">
-            {window.screen.width>375?(<div className="about__left">
+            {window.screen.width>415?(<div className="about__left">
                 <h4 className="about__leftintro">Hey! Introducing myself, I'm</h4>
                 <h2 className="about__leftname">Asif Ali Khan</h2>
                 <p className="about__leftbio">Front-end Developer. Doing interesting things that matters. I believe "the learning curve should never have a negative slope". Currently sharpening my axe 🪓 (Javascript & React).</p>
@@ -25,7 +25,7 @@ function About() {
                     <Social imageurl={twitter} socialurl="https://twitter.com/khanasif41" alttext="Twitter"/>
                 </div>
             </div>)}
-            {window.screen.width<375?(<div className="about__left">
+            {window.screen.width<415 ?(<div className="about__left">
                 <h4 className="about__leftintro">Hey! Introducing myself, I'm</h4>
                 <h2 className="about__leftname">Asif Ali Khan</h2>
                 <p className="about__leftbio">Front-end Developer. Doing interesting things that matters. I believe "the learning curve should never have a negative slope". Currently sharpening my axe 🪓 (Javascript & React).</p>

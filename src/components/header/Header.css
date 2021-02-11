@@ -96,8 +96,8 @@ a:active{
     color: #0b0c10;
     background-color: aqua;
     position: absolute;
-    padding: 13.7rem 6.55rem 13.4rem 9.4rem;
-    margin: 1.35rem -23.2rem 0px -23.2rem;
+    padding: 35vh 16vh 40vh 16vh;
+    margin: 5% 25% 0% -90%;
     animation-name: navbar;
     animation-timing-function: cubic-bezier(0, 0.85, 1, 1);
     animation-duration: 0.3s;
@@ -110,12 +110,14 @@ a:active{
 .header_burger{
     transition: all ease-in .5s;
 }
-@media only screen and (max-width:375px){
+
+
+@media only screen and (max-width:415px){
     .header{
         padding: 10px 15px;
     }
     .cross{
-        width:26px
+        width:35px
     }
     .header>img{
         width:60%;
@@ -130,3 +132,14 @@ a:active{
         width:0px;
     }
 }
+@media only screen and (width:375px){
+    .header__nav{
+        padding: 35vh 14.9vh 40vh 14vh;
+    }
+}
+@media only screen and (width:360px){
+    .header__nav{
+        padding: 35vh 16.9vh 36vh 17vh;
+    }
+}
+

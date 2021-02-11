@@ -109,7 +109,7 @@
 .blog__righttech>img{
     width:4%;
 }
-@media only screen and (max-width:375px){
+@media only screen and (max-width:415px){
     .blog__left > h1{
         font-size: 2rem;
     }
