@@ -22,6 +22,7 @@
     align-items: center;
 }
 .about__rightbioimage{
+    width: 85%;
     padding: 16px;
     border: 4px solid #66fcf1;
     border-radius: 50%;
