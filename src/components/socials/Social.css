@@ -9,13 +9,11 @@
 }
 .socialimg{
     width:25px;
-    background-color: #c5c6c7;
+    background-color: #fff;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 50%;
 }
-.socialimg:hover{
-    background-color: #66fcf1;
-}
+
 @media only screen and (max-width: 415px){
     .socialimg{
         width:16px;

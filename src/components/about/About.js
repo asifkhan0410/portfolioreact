@@ -4,6 +4,7 @@ import github from "../../images/github-fill.svg"
 import twitter from "../../images/twitter-fill.svg"
 import linkedin from "../../images/linkedin-fill.svg"
 import hashnode from "../../images/hashnode.svg"
+import axe from "../../images/axe.svg"
 import dp from "../../images/profiledp.jpg"
 import './About.css'
 
@@ -13,7 +14,7 @@ function About() {
             {window.screen.width>415?(<div className="about__left">
                 <h4 className="about__leftintro">Hey! Introducing myself, I'm</h4>
                 <h2 className="about__leftname">Asif Ali Khan</h2>
-                <p className="about__leftbio">Front-end Developer. Doing interesting things that matters. I believe "the learning curve should never have a negative slope". Currently sharpening my axe 🪓 (Javascript & React).</p>
+                <p className="about__leftbio">Front-end Developer. Doing interesting things that matters. I believe "the learning curve should never have a negative slope". Currently sharpening my axe <img className="axe" src={axe} alt="axe"/> (Javascript & React).</p>
                 <button className="about__leftcontactme">Get In Touch</button>
             </div>):
             (<div className="about__right">
@@ -28,7 +29,7 @@ function About() {
             {window.screen.width<415 ?(<div className="about__left">
                 <h4 className="about__leftintro">Hey! Introducing myself, I'm</h4>
                 <h2 className="about__leftname">Asif Ali Khan</h2>
-                <p className="about__leftbio">Front-end Developer. Doing interesting things that matters. I believe "the learning curve should never have a negative slope". Currently sharpening my axe 🪓 (Javascript & React).</p>
+                <p className="about__leftbio">Front-end Developer. Doing interesting things that matters. I believe "the learning curve should never have a negative slope". Currently sharpening my axe <img className="axe" src={axe} alt="axe"/> (Javascript & React).</p>
                 <button className="about__leftcontactme">Get In Touch</button>
             </div>):
             (<div className="about__right">

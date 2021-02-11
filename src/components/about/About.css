@@ -6,6 +6,9 @@
     height:80vh;
     padding: 50px 15%;
 }
+.axe{
+    vertical-align: middle;
+}
 .about__left{
     display: flex;
     flex-direction: column;
@@ -84,5 +87,8 @@
     }
     .about__rightbioimage{
         width:55%;
+    }
+    .axe{
+        width:18px
     }
 }
