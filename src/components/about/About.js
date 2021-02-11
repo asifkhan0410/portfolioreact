@@ -9,13 +9,20 @@ import dp from "../../images/profiledp.jpg"
 import './About.css'
 
 function About() {
+    const Mailto = ({ email, subject = '', body = '', children }) => {
+        let params = subject || body ? '?' : '';
+        if (subject) params += `subject=${encodeURIComponent(subject)}`;
+        if (body) params += `${subject ? '&' : ''}body=${encodeURIComponent(body)}`;
+      
+        return <a href={`mailto:${email}${params}`}>{children}</a>;
+      };
     return (
         <div className="about" id="about">
             {window.screen.width>415?(<div className="about__left">
                 <h4 className="about__leftintro">Hey! Introducing myself, I'm</h4>
                 <h2 className="about__leftname">Asif Ali Khan</h2>
                 <p className="about__leftbio">Front-end Developer. Doing interesting things that matters. I believe "the learning curve should never have a negative slope". Currently sharpening my axe <img className="axe" src={axe} alt="axe"/> (Javascript & React).</p>
-                <button className="about__leftcontactme">Get In Touch</button>
+                <Mailto email="asifkhan0410@gmail.com" subject="Hey Asif!" body="Hey I just came across your profile and wanted to contact you. Regards !"><button className="about__leftcontactme">Get In Touch</button></Mailto>
             </div>):
             (<div className="about__right">
                 <img className="about__rightbioimage" src={dp} alt="alt"/>
@@ -30,7 +37,7 @@ function About() {
                 <h4 className="about__leftintro">Hey! Introducing myself, I'm</h4>
                 <h2 className="about__leftname">Asif Ali Khan</h2>
                 <p className="about__leftbio">Front-end Developer. Doing interesting things that matters. I believe "the learning curve should never have a negative slope". Currently sharpening my axe <img className="axe" src={axe} alt="axe"/> (Javascript & React).</p>
-                <button className="about__leftcontactme">Get In Touch</button>
+                <Mailto email="asifkhan0410@gmail.com" subject="Hey Asif!" body="Hey I just came across your profile and wanted to contact you. Regards !"><button className="about__leftcontactme">Get In Touch</button></Mailto>
             </div>):
             (<div className="about__right">
                 <img className="about__rightbioimage" src={dp} alt="alt"/>
