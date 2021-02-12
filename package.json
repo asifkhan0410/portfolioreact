@@ -13,6 +13,7 @@
     "react-gauge-chart": "^0.3.0",
     "react-loader-spinner": "^4.0.0",
     "react-scripts": "4.0.2",
+    "svg-loaders-react": "^2.2.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
