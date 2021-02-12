@@ -58,7 +58,7 @@ function Blog() {
 
 
     };
-    if (post.loading) return <div className="spinner"><ThreeDots fill="#e1bafd" trokeOpacity=".125" /></div>;
+    if (post.loading) return <div className="spinner"><ThreeDots fill="#66fcf1" trokeopacity=".125" /></div>;
     return (
         <div className="blog" id="blog">
             <div className="blog__left">

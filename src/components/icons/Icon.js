@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Icon.css"
 
-function Social({imageurl,alttext}) {
+function Icon({imageurl,alttext}) {
     return (
         <div className="icon">
             <img className="iconimg" src={imageurl} alt={alttext}/>
@@ -9,4 +9,4 @@ function Social({imageurl,alttext}) {
     )
 }
 
-export default Social
+export default Icon
