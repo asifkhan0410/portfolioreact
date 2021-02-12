@@ -18,7 +18,6 @@
 }
 .projects>h1:hover{
     color: #66fcf1;
-    font-weight: 500;
 }
 .projects>h1::after{
     content: "";
@@ -100,5 +99,8 @@
     }
     .singleproject__body>p{
         font-size: 0.9rem;
+    }
+    .projects>h1:hover::after{
+        width:100%;
     }
 }

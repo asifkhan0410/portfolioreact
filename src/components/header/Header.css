@@ -114,7 +114,7 @@ a:active{
 
 @media only screen and (max-width:415px){
     .header{
-        padding: 10px 15px;
+        padding: 10px 15px 10px 0px;
     }
     .cross{
         width:35px
