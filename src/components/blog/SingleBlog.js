@@ -15,8 +15,8 @@ function SingleBlog({post}) {
                 <h2>{post.title}</h2>
                 <p>{post.brief}</p>
                 <div className="singleblog__reactions">
-                    <Icon imageurl={heart} alttext="Heart"/>{post.totalReactions}
-                    <Icon imageurl={comment} alttext ="Comments"/>{Number(post.replyCount)+Number(post.responseCount)}
+                    <Icon imageurl={heart} alttext="Heart"/>{post.totalReactions} likes
+                    <Icon imageurl={comment} alttext ="Comments"/>{Number(post.replyCount)+Number(post.responseCount)} comments
                 </div>
             </div>
             <img src={post.coverImage} alt={post.title} />
@@ -28,8 +28,8 @@ function SingleBlog({post}) {
                     <h2>{post.title}</h2>
                     <p>{post.brief}</p>
                     <div className="singleblog__reactions">
-                        <Icon imageurl={heart} alttext="Heart"/>{post.totalReactions}
-                        <Icon imageurl={comment} alttext ="Comments"/>{Number(post.replyCount)+Number(post.responseCount)}
+                        <Icon imageurl={heart} alttext="Heart"/>{post.totalReactions} likes
+                        <Icon imageurl={comment} alttext ="Comments"/>{Number(post.replyCount)+Number(post.responseCount)} comments
                     </div>
                 </div>
          </>)}           
